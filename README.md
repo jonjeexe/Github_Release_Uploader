@@ -30,11 +30,12 @@ Generate and Save: Click Generate token. Copy the token immediately; you will no
 
 
 ### Run with only 3 parameters 
+<p>** Before executing script create a `token.txt` and past `Github personal access token` in token.txt which you created in previous steps</p>
 
 ```
 chmod +x upload.sh
 ./upload.sh "tag" "repo url" "Release title" 
 ```
 
-Example:-
-./upload.sh "v1.0.0" "jonjeexe/Local_Manifests_Eclipse" "First Release"
+<h5>Example:-</h5><br>
+<p></p>./upload.sh "v1.0.0" "jonjeexe/Local_Manifests_Eclipse" "First Release"</p>

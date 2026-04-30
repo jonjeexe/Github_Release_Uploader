@@ -25,16 +25,20 @@ Optional: If your release process modifies GitHub Actions, grant Workflows write
 
 Generate and Save: Click Generate token. Copy the token immediately; you will not be able to see it again.
 
---
 
+---
 
+### Download Script
+
+```
+curl -O https://raw.githubusercontent.com/jonjeexe/Github_Release_Uploader/refs/heads/main/Upload.sh && chmod +x Upload.sh
+``
 
 ### Run with only 3 parameters 
 
 ** Before executing script create a `token.txt` and past `Github personal access token` in token.txt which you created in previous steps.
 
 ```
-chmod +x upload.sh
 ./upload.sh "tag" "repo url" "Release title" 
 ```
 

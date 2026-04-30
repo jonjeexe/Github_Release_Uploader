@@ -38,4 +38,5 @@ chmod +x upload.sh
 ```
 
 <h5>Example:-</h5>
-<p>`./upload.sh "v1.0.0" "jonjeexe/Local_Manifests_Eclipse" "First Release"`</p>
+
+`./upload.sh "v1.0.0" "jonjeexe/Local_Manifests_Eclipse" "First Release"`

@@ -1,5 +1,5 @@
 ## Github Release Uploader
-<p>Script that help you to push your output into your GitHub repo release upto 2GB</p><br>
+<p>Script that help you to push your output into your GitHub repo release using github personal access token.</p><br>
 
 ## Requirements
 1. Fine-grained Github Personal Access Token (Recommended)

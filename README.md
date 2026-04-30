@@ -37,5 +37,5 @@ chmod +x upload.sh
 ./upload.sh "tag" "repo url" "Release title" 
 ```
 
-<h5>Example:-</h5><br>
-<p></p>./upload.sh "v1.0.0" "jonjeexe/Local_Manifests_Eclipse" "First Release"</p>
+<h5>Example:-</h5>
+<p>`./upload.sh "v1.0.0" "jonjeexe/Local_Manifests_Eclipse" "First Release"`</p>

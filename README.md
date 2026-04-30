@@ -32,7 +32,7 @@ Generate and Save: Click Generate token. Copy the token immediately; you will no
 
 ```
 curl -O https://raw.githubusercontent.com/jonjeexe/Github_Release_Uploader/refs/heads/main/Upload.sh && chmod +x Upload.sh
-``
+```
 
 ### Run with only 3 parameters 
 

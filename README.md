@@ -49,3 +49,29 @@ curl -O https://raw.githubusercontent.com/jonjeexe/Github_Release_Uploader/refs/
 <h5>Example:-</h5>
 
 `./upload.sh "v1.0.0" "jonjeexe/Local_Manifests_Eclipse" "First Release"`
+
+---
+<br>
+
+### For Crave.io devspace CLI
+Manual Method How to pull output to Devspace CLI
+Simply use the crave pull command inside the same directory as before
+
+1. Pull zip of your build
+```
+crave pull out/target/product/*/*.zip
+```
+
+2. Pull img of your build
+```
+crave pull out/target/product/*/*.img
+```
+
+3. Then enter into output folder
+```
+cd <codename>
+```
+
+then follow previous steps download script create a github personal access token and past into token.txt and run Upload.sh from the dir where is ur build zip.
+
+thank you i hope it help you ♡

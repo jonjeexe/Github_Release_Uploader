@@ -6,7 +6,7 @@
 2. Create github repo to push output files
 <br>
 
-# Create Github Personal Access Token
+## Create Github Personal Access Token
 1. Navigate to Settings:
 2. Click your profile picture in the top-right corner of any GitHub page and select Settings.
 3. Open Developer Settings:
@@ -24,3 +24,17 @@ Find Contents and set the access to Read and write. This is required for creatin
 Optional: If your release process modifies GitHub Actions, grant Workflows write access.
 
 Generate and Save: Click Generate token. Copy the token immediately; you will not be able to see it again.
+
+--
+
+
+
+### Run with only 3 parameters 
+
+```
+chmod +x upload.sh
+./upload.sh "tag" "repo url" "Release title" 
+```
+
+Example:-
+./upload.sh "v1.0.0" "jonjeexe/Local_Manifests_Eclipse" "First Release"

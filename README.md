@@ -29,12 +29,14 @@ Find Contents and set the access to Read and write. This is required for creatin
 
 ---
 <br>
+
 ### Download Script
 
 ```
 curl -O https://raw.githubusercontent.com/jonjeexe/Github_Release_Uploader/refs/heads/main/Upload.sh && chmod +x Upload.sh
 ```
 <br>
+
 ### Run with only 3 parameters 
 
 ** Before executing script create a `token.txt` and past `Github personal access token` in token.txt which you created in previous steps.

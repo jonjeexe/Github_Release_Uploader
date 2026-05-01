@@ -42,13 +42,13 @@ curl -O https://raw.githubusercontent.com/jonjeexe/Github_Release_Uploader/refs/
 ** Before executing script create a `token.txt` and past `Github personal access token` in token.txt which you created in previous steps.
 
 ```
-./upload.sh "tag" "repo url" "Release title" 
+./Upload.sh "tag" "repo url" "Release title" 
 ```
 
 <br>
 <h5>Example:-</h5>
 
-`./upload.sh "v1.0.0" "jonjeexe/Local_Manifests_Eclipse" "First Release"`
+`./Upload.sh "v1.0.0" "jonjeexe/Local_Manifests_Eclipse" "First Release"`
 
 ---
 <br>
